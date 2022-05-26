@@ -1,0 +1,183 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* nav section */
+.navbar{
+  background-color: #fff;
+  padding: 0;
+  border-bottom: 1px solid #cfcfcf;
+}
+.navbar-light .navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    color: #73777B;
+    letter-spacing: 5px;
+    padding: 8 15px 8 15px;
+}
+
+.navbar-light .navbar-brand:hover {
+    background-color: #dcf1fa;
+    transition: .5s ease;
+    color: #00557a;
+}
+
+
+.bar-name{
+  font-size: 1rem;
+  font-weight: 800;
+  color: #73777B;
+}
+.nav-item{
+  font-family: 'Roboto', sans-serif;
+  padding: 0 15px;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+.nav-item:hover{
+  background-color: #dcf1fa;
+  transition: .5s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #0070a1;
+}
+
+/* picture and name section */
+
+#name-photo{
+  text-align: center;
+  background-color: #dff5f1;
+  color: #5e5e5e;
+  padding: 100px 15% 2%;
+  border-bottom: 1px solid #cfcfcf;
+}
+.name {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.name-description{
+  font-size: 1rem;
+  color: #a1a1a1;
+}
+.name-section{
+  padding: 1% 3%;
+}
+
+.portrait-picture{
+  border-radius: 50%;
+  width: 150px;
+  height: auto;
+  border: 2px solid #F2F2F2;
+}
+
+/* about me section */
+#about-me{
+  background-color: #fff;
+  padding: 2% 25% 2%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #5e5e5e;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.about-me-header {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2;
+}
+
+/* skills section */
+#skills{
+  text-align: center;
+  background-color: #dff5f1;
+  font-family: 'Montserrat', sans-serif;
+  color: #5e5e5e;
+  border-bottom: 1px solid #cfcfcf;
+  padding: 2% 0;
+}
+
+.skills-header{
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2;
+  padding-bottom: 1%;
+}
+
+.skill-name {
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+.skill-item{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+img:hover{
+  opacity: 0.6;
+  transition: .3s ease;
+}
+
+/* projects section */
+
+#projects{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #5e5e5e;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: 1px solid #cfcfcf;
+}
+.carousel-inner {
+  padding: 25px 50px 100px;
+  height: 750px;
+  overflow: hidden;
+  width: 100%
+}
+
+.project-section-header {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.project-name {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.project-language{
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.screenshot-container {
+  padding: 20px 0;
+}
+
+/* Contact Me Section */
+
+#contact-me {
+  text-align: center;
+  background-color: #dff5f1;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #5e5e5e;
+}
+
+.contact-me-header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2;
+}
+
+.contact-button {
+  margin: 0 5px;
+}
